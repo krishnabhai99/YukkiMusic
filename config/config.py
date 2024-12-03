@@ -19,17 +19,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("29961447", ""))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("be2e07ad90b5c8b5d368cb4efd302568")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7959845792:AAG5xEToJNEt3ufVPR_oRxev7NsRl8WSFqg")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://SHIVAM:SHIVAM9910887018@shivam.chooc.mongodb.net/?retryWrites=true&w=majority&appName=SHIVAM", None)
 
 CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", "5")
@@ -70,12 +70,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = getenv("LOG_GROUP_ID", "")
+LOG_GROUP_ID = getenv("-1002293921199", "")
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6815918609").split())
+    map(int, getenv("6108061450", "6815918609").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
