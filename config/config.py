@@ -101,10 +101,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TheTeamVivek"
+    "SUPPORT_CHANNEL", "https://t.me/Animes_India_bot"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TheTeamVk"
+    "SUPPORT_GROUP", "https://t.me/Animes_India_bots_support_group"
 )  # Example:- https://t.me/TheTeamVk
 
 
@@ -169,7 +169,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", None).split(",")))
+STRING_SESSIONS = list(map(str.strip, getenv("1BVtsOMMBu6xG-rxQyMzjdpbqngGXqHq9dOnw1yIQzYHCKicvYPSJwsbL3xcro6XnYuW_DuwvBWnKlAqWELxaWTXFTiyE-qXlazrK06iwJB4njVaiH2D-juDZ3jA0pdbhf_Mcw9V6bHpZ25XrO8i-4cQCDLcHQPbV6uoOXiOWnefbbC3bpoYV0_wyjW0bOaEhXVEbKbBIJeTNcstsyMe2tClXKcTPq_yWdtTPanyQfp-WWcz7ptAnnHOsLppFcYVj0q34z4YBr-ihdpWHU_hTcFzyrdDyVaM3pAUAACb_C8CmRoS3aXQfVd_avXkCaVmQWAvagPQE5HoZaZkVtWs58jkHTWSgwXU=", None).split(",")))
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____
