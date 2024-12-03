@@ -283,7 +283,11 @@ class Call:
                 video_parameters=video_stream_quality,
             )
         else:
-            stream = MediaStream(link, audio_parameters=audio_stream_quality)
+            stream = MediaStream(
+                link,
+                audio_parameters=audio_stream_quality,
+#                video_flags=MediaStream.Flags.IGNORE to do
+            )
 
         try:
             await assistant.play(
